@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+#foreach($u in $ListUsers)
+#beforeall
+<users count="$Count" title="$Title">
+  #each
+  <user>
+    <name>$u.Name</name>
+    <sex>$u.Sex</sex>
+    <city>$u.City</city>
+  </user>
+  #afterall
+</users>
+#nodata
+<users>暂无用户资料</users>
+#end

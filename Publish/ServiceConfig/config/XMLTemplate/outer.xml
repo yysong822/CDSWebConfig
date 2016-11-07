@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<service name="${servicename}" type="outer">
+    <outer description="${outerdes}">
+            <path description="${outerpathdes}" value="${outerpathvalue}">
+                <files description="${outerfiledes}">${outerfilevalue}</files>
+            </path>
+    </outer>
+  <baseinfo>
+    <source>${sourceid}</source>
+    <group>${servicegroup}</group>
+  </baseinfo>
+    </service>

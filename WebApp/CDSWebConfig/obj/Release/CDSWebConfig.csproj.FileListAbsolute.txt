@@ -1,0 +1,5 @@
+D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\WebApp\CDSWebConfig\bin\CDSWebConfig.dll
+D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\WebApp\CDSWebConfig\bin\CDSWebConfig.pdb
+D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\WebApp\CDSWebConfig\obj\Release\CDSWebConfig.csprojResolveAssemblyReference.cache
+D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\WebApp\CDSWebConfig\obj\Release\CDSWebConfig.dll
+D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\WebApp\CDSWebConfig\obj\Release\CDSWebConfig.pdb

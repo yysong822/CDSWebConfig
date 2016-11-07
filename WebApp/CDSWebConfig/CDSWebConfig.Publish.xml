@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\MyVSWorkSpace\CDSWebConfigV1-bycyz\CDSWebConfig\Publish" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="Profile1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/CDSWebConfig.pdb" publishTime="08/17/2016 14:43:24" />
+    <file relUrl="ServiceConfig/SCAddFile.aspx" publishTime="01/13/2016 15:55:21" />
+    <file relUrl="ServiceConfig/config/XMLTemplate/outer.xml" publishTime="06/06/2016 11:15:17" />
+    <file relUrl="Global.asax" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="ServiceConfig/SCAdd.aspx" publishTime="08/11/2016 16:28:51" />
+    <file relUrl="Styles/Site.css" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="ServiceConfig/config/XMLTemplate/notify.xml" publishTime="06/06/2016 09:13:13" />
+    <file relUrl="Site.Master" publishTime="08/17/2016 11:32:53" />
+    <file relUrl="ServiceConfig/OptList.aspx" publishTime="08/17/2016 14:44:51" />
+    <file relUrl="About.aspx" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="Scripts/jquery-1.4.1.js" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="Error.aspx" publishTime="01/21/2016 08:57:57" />
+    <file relUrl="Account/Web.config" publishTime="08/10/2016 11:11:41" />
+    <file relUrl="Account/Login.aspx" publishTime="08/17/2016 11:32:53" />
+    <file relUrl="Scripts/jquery-1.4.1.min.js" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="ServiceConfig/SCDetail.aspx" publishTime="08/09/2016 11:22:55" />
+    <file relUrl="Default.aspx" publishTime="01/13/2016 16:47:48" />
+    <file relUrl="ServiceConfig/SCList.aspx" publishTime="08/04/2016 16:32:29" />
+    <file relUrl="ServiceConfig/config/XMLTemplate/collection.xml" publishTime="06/06/2016 09:13:13" />
+    <file relUrl="bin/CDSWebConfig.dll" publishTime="08/17/2016 14:43:24" />
+    <file relUrl="Account/ChangePasswordSuccess.aspx" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="Account/ChangePassword.aspx" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="Scripts/jquery-1.4.1-vsdoc.js" publishTime="11/30/2015 10:37:46" />
+    <file relUrl="Web.config" publishTime="08/12/2016 14:28:47" />
+    <file relUrl="bin/Oracle.ManagedDataAccess.dll" publishTime="09/26/2015 08:19:22" />
+    <file relUrl="config/XMLTemplate/test.xml" publishTime="12/14/2015 14:37:54" />
+    <file relUrl="config/XMLTemplate/collection2.xml" publishTime="12/16/2015 16:31:25" />
+    <file relUrl="Account/UserAdd.aspx" publishTime="08/17/2016 11:32:53" />
+    <file relUrl="bin/NVelocity.dll" publishTime="12/10/2010 14:29:30" />
+  </publishProfile>
+</publishData>

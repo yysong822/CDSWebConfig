@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<service name="${servicename}" type="collection">
+  <collection description="${collectiondes}">
+    <start-time description="${starttimedes}">${starttime}</start-time>
+    <period description="${perioddes}">${period}</period>
+  </collection>
+  #foreach( $sclink in $SCLinks )
+    #if( $velocityCount == 1)
+    <link id="${sclink.LinkId}" description="${sclink.Description}" type="begin">
+    #else
+    <link id="${sclink.LinkId}" description="${sclink.Description}">
+    #end
+      <order>${sclink.Order}</order>
+      <next-links>
+        #foreach( $nextlink in $sclink.NextLinks )
+        <next-link>
+          <topic>${nextlink.Topic}</topic>
+          <link-id>${nextlink.LinkID}</link-id>
+        </next-link>
+        #end
+      </next-links>
+    </link>
+  #end
+</service>
+
+

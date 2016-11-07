@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CDSWebConfig", "CDSWebConfig\CDSWebConfig.csproj", "{29BB2B5D-118D-4FD6-A7F0-69B305E6D15E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29BB2B5D-118D-4FD6-A7F0-69B305E6D15E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29BB2B5D-118D-4FD6-A7F0-69B305E6D15E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29BB2B5D-118D-4FD6-A7F0-69B305E6D15E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29BB2B5D-118D-4FD6-A7F0-69B305E6D15E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

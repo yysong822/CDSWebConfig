@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<service name=${name} type="collection">
+  <collection description="">
+    <start-time description="hh:mm:ss">${starttime}</start-time>
+    <period description="second,0s means just once">${period}</period>
+  </collection>
+  #foreach( $sclink in $SCLinks )
+  <link id=${sclink.LinkId} description=${sclink.Description} type="begin">
+    <order>${sclink.Order}</order>
+    <next-links>
+      #foreach( $nextlink in $NextLinks )
+      <next-link>
+        <topic>${nextlink.topic}</topic>
+        <link-id>${nextlink.linkid}</link-id>
+      </next-link>
+      #end
+    </next-links>
+  </link>
+  #end
+</service>

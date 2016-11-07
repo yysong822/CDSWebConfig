@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<service name="${servicename}" type="notify">
+    <notify description="${notifydes}">
+        <paths>
+            #foreach( $pathfilemate in $PathFileMate )
+            <path description="${pathfilemate.PathDes}" value="${pathfilemate.Path}">
+                <files description="${pathfilemate.FilesDes}">${pathfilemate.Files}</files>
+            </path>
+            #end
+        </paths>
+    </notify>
+   <baseinfo>
+    <source>${sourceid}</source>
+    <group>${servicegroup}</group>
+   </baseinfo>
+    #foreach( $sclink in $SCLinks)
+    #if( $velocityCount == 1)
+    <link id="${sclink.LinkId}" description="${sclink.Description}" type="begin">
+        #else
+        <link id="${sclink.LinkId}" description="${sclink.Description}">
+            #end
+            <order>${sclink.Order}</order>
+            <next-links>
+                #foreach( $nextlink in $sclink.NextLinks )
+                <next-link>
+                    <topic>${nextlink.Topic}</topic>
+                    <link-id>${nextlink.LinkID}</link-id>
+                </next-link>
+                #end
+            </next-links>
+        </link>
+        #end
+    </service>
